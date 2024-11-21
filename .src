@@ -1,0 +1,13 @@
+PI = 3.14159
+
+raio = 10
+altura = 3
+
+raio = int(input('Digite o raio: '))
+altura = int(input('Digite a altura: '))
+
+volume = PI*raio*altura
+
+area = PI*raio
+
+print(f'Área: {area}', f'volume: {volume}')
